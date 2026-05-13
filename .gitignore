@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode build products
+build/
+DerivedData/
+
+# Xcode Schemes (only shared schemes are committed)
+!*.xcodeproj/xcshareddata/xcschemes
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+
+# CocoaPods (if ever added)
+Pods/
+*.xcworkspace
+!*.xcodeproj/project.xcworkspace
+
+# Carthage (if ever added)
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Secrets & environment
+.env
+.env.local
+*.p12
+*.mobileprovision
+AuthKey_*.p8
+
+# Playground artifacts
+timeline.xctimeline
+playground.xcworkspace
+
+# Tuist / XcodeGen (if ever added)
+Derived/

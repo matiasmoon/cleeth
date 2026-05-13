@@ -1,0 +1,1037 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    " What is Cleeth? 📱" : {
+
+    },
+    "%lld minutes" : {
+
+    },
+    "%lld times" : {
+
+    },
+    "🪥 Cleeth is an iOS application designed to help everyone (but specially children) in cultivating the habit of brushing their teeth. Cleeth ensures you don't forget to brush by sending notifications and integrating with the Calendar. This by also providing a simple interface and fun animations to accompany you in your journey." : {
+
+    },
+    "1.2P" : {
+
+    },
+    "1st time: " : {
+
+    },
+    "2nd time: " : {
+
+    },
+    "3rd time: " : {
+
+    },
+    "4th time: " : {
+
+    },
+    "5th time: " : {
+
+    },
+    "6th time: " : {
+
+    },
+    "About" : {
+
+    },
+    "Access Already Granted" : {
+
+    },
+    "Acknowledgements 🙏" : {
+
+    },
+    "App Information" : {
+
+    },
+    "App Version" : {
+
+    },
+    "Are you sure you want to add Events to Brush Your Teeth to your Calendar?" : {
+
+    },
+    "Are you sure you want to delete all Clear Cleeth Events to Brush Your Teeth from your Calendar & Reminders?" : {
+
+    },
+    "As a graduate with a Bachelor's degree in Computer Engineering and currently pursuing a Master's in Computer Science, I understand the importance and risks associated with data. The Cleeth app was designed to function without requiring any user information. No data is collected, connected, or shared with external entities. Information related to the app's proper functioning remains exclusively on your device. For inquiries, please contact me at matiasortizluna.contacto@gmail.com." : {
+
+    },
+    "As the app does not collect information, and the Device’s Brushing Preferences for the correct functionality of the Cleeth App are stored locally and never leave your device, consent can be revoked by deleting the app, removing all information, including your Device’s Brushing Preferences." : {
+
+    },
+    "As the app does not collect information, and the Device’s Brushing Preferences for the correct functionality of the Cleeth App are stored locally and never leave your device, you can delete any information by removing the app, including your Device’s Brushing Preferences." : {
+
+    },
+    "Brush" : {
+
+    },
+    "Brush Options" : {
+
+    },
+    "By using the Cleeth App, users consent to the local storage of their Device’s Brushing Preferences for the correct functionality of the Cleeth App for the duration of app usage." : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Clear Events from your Calendar & Reminders" : {
+
+    },
+    "Clear Statistics" : {
+
+    },
+    "Cleeth" : {
+
+    },
+    "Cleeth does not collect any data or Device’s Brushing Preferences for the correct functionality of the Cleeth App, stored locally and never leaving the device. Therefore, nothing is sold or shared with third parties." : {
+
+    },
+    "Cleeth will create a Reminder for each time of the day you set to be reminded to Brush your Teeth on the Reminders App (1 month).\n\nNote: Previous Events set up by Cleeth will be Deleted and Replaced with the new configuration." : {
+
+    },
+    "Cleeth will create Events for each time of the day you set to be reminded to Brush your Teeth on your Calendar (1 month).\n\nNote: Previous Events set up by Cleeth will be Deleted and Replaced with the new configuration." : {
+
+    },
+    "Congrats!" : {
+
+    },
+    "Contact Information:" : {
+
+    },
+    "Data & Information Access Policy:" : {
+
+    },
+    "Data & Information Collection and Use" : {
+
+    },
+    "Data & Information Collection Policy:" : {
+
+    },
+    "Data & Information Collection, Usage, Selling, or Sharing to Third Parties:" : {
+
+    },
+    "Data & Information Deletion Policy:" : {
+
+    },
+    "Data & Information of Children Policy:" : {
+
+    },
+    "Data & Information Policy Changes:" : {
+
+    },
+    "Data & Information Retention Policy:" : {
+
+    },
+    "Data & Information Revoke Consent Policy:" : {
+
+    },
+    "Data & Information Security:" : {
+
+    },
+    "Data & Information Types Collection Policy:" : {
+
+    },
+    "Data & Information Usage Policy:" : {
+
+    },
+    "Device’s Brushing Preferences for the correct functionality of the Cleeth App are stored locally and used to save personal preferences, ensuring the best user experience. This includes setting the brush time, the number of notifications, and the notification times." : {
+
+    },
+    "Device’s Brushing Preferences for the correct functionality of the Cleeth App are stored locally when modifying default settings in the app's options. This information never leaves your device." : {
+
+    },
+    "Device’s Brushing Preferences for the correct functionality of the Cleeth App remain on your device only as long as you use the app. Deleting the app removes all associated information." : {
+
+    },
+    "Do you want to Sync with Calendar?" : {
+
+    },
+    "Do you want to Sync with Reminders?" : {
+
+    },
+    "Download Cleeth Now!" : {
+
+    },
+    "Enable Notifications in Settings" : {
+
+    },
+    "Evaluate" : {
+
+    },
+    "Feedback & Support" : {
+
+    },
+    "For any questions about this Privacy Policy, contact its author and the Cleeth App developer at matiasortizluna.contacto@gmail.com." : {
+
+    },
+    "For Cleeth app usage, no data, especially personally identifiable information, is collected to contact or identify users. The only information that is stored locally is the device’s settings for:\n\n- The Time for each Brush\n- The Number of Notifications to be sent.\n- The Time for sending those notifications.\n\nThis information will be referred to as \"Device’s Brushing Preferences for the correct functionality of the Cleeth App.\"" : {
+
+    },
+    "Hello" : {
+
+    },
+    "Hey! Check out this app that helps you remember to brush your teeth!" : {
+
+    },
+    "Hi, I'm Matias Ortiz Luna, a 22 years old Computer Engineering Bachelor's graduate and Computer Science Master's student at the Faculty of Sciences of the University of Porto. I was born and raised in Ecuador but have been living in Portugal since 2018.\nI am very passionate about iOS development, Artificial Intelligence, Data Science and Network Science. I identify myself as a proud science nerd, but I'm also a volleyball player, passionate cook, and soon-to-be polyglot. Hoping to one day become Batman; currently, I'm Spiderman.\n\nYou can find me on LinkedIn and GitHub by searching for my full name. I would be happy to connect and exchange insights about any of these topics." : {
+
+    },
+    "How are you?" : {
+
+    },
+    "Indemnity:" : {
+
+    },
+    "Last updated: November 2023" : {
+
+    },
+    "Matias Ortiz Luna is the sole operator of the Cleeth iOS mobile application, available on the App Store." : {
+
+    },
+    "Nobody, including the author and developer, has access to your Device’s Brushing Preferences for the correct functionality of the Cleeth App." : {
+
+    },
+    "Note from the Author and Developer:" : {
+
+    },
+    "Note: Personal Data & Personally identifiable information include: Email address, First Name and Last Name, Phone Number, Address, State, Province, ZIP/Postal Code, City, Cookies, and Usage Data." : {
+
+    },
+    "Notifications" : {
+
+    },
+    "Notifications Permissions" : {
+
+    },
+    "Notifications Schedule" : {
+
+    },
+    "onboarding.calendar.subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create events on your calendar for brushing your teeth"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea eventos en tu calendario para cepillarte los dientes"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea eventos en tu calendario para cepillarte los dientes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crée des événements dans ton calendrier pour te brosser les dents"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea eventi nel tuo calendario per lavarti i denti"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crie eventos no calendário para escovar os dentes"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cria eventos no teu calendário para escovar os dentes"
+          }
+        }
+      }
+    },
+    "onboarding.calendar.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sync with Calendar"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronizar con el Calendario"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronizar con el Calendario"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchroniser avec le Calendrier"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronizza con il Calendario"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronizar com o Calendário"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronizar com o Calendário"
+          }
+        }
+      }
+    },
+    "onboarding.completion.get_started" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Started!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Empezar!"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Comenzar!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commencer !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizia!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Começar!"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Começar!"
+          }
+        }
+      }
+    },
+    "onboarding.completion.subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let's start to create this new habit!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Empecemos a crear este nuevo hábito!"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Empecemos a crear este nuevo hábito!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commençons à créer cette nouvelle habitude !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniziamo a creare questa nuova abitudine!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vamos começar a criar esse novo hábito!"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vamos começar a criar este novo hábito!"
+          }
+        }
+      }
+    },
+    "onboarding.completion.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feel Ready?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Listo?"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Listo?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prêt ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pronto?"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pronto?"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pronto?"
+          }
+        }
+      }
+    },
+    "onboarding.default_timer.subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change the default time for each brush"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia el tiempo predeterminado para cada cepillado"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia el tiempo predeterminado para cada cepillado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifie le temps par défaut pour chaque brossage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia il tempo predefinito per ogni lavaggio"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mude o tempo padrão para cada escovação"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Altera o tempo predefinido para cada escovagem"
+          }
+        }
+      }
+    },
+    "onboarding.default_timer.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Default Timer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador Predeterminado"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador Predeterminado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minuteur par défaut"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer predefinito"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador Padrão"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador Predefinido"
+          }
+        }
+      }
+    },
+    "onboarding.goal.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let's find out how!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Descubramos cómo!"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Descubramos cómo!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Découvrons comment !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scopriamo come!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vamos descobrir como!"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vamos descobrir como!"
+          }
+        }
+      }
+    },
+    "onboarding.goal.subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We want you to never forget to brush your teeth"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Queremos que nunca olvides cepillarte los dientes"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Queremos que nunca olvides cepillarte los dientes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nous voulons que tu n'oublies jamais de te brosser les dents"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vogliamo che tu non dimentichi mai di lavarti i denti"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Queremos que você nunca esqueça de escovar os dentes"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Queremos que nunca te esqueças de escovar os dentes"
+          }
+        }
+      }
+    },
+    "onboarding.goal.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cleeth's Goal"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El objetivo de Cleeth"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El objetivo de Cleeth"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'objectif de Cleeth"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'obiettivo di Cleeth"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objetivo da Cleeth"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objetivo da Cleeth"
+          }
+        }
+      }
+    },
+    "onboarding.notifications.subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose how many notifications you want to receive per day"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige cuántas notificaciones quieres recibir al día"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige cuántas notificaciones quieres recibir al día"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisis combien de notifications tu veux recevoir par jour"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli quante notifiche vuoi ricevere al giorno"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolha quantas notificações quer receber por dia"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolhe quantas notificações queres receber por dia"
+          }
+        }
+      }
+    },
+    "onboarding.notifications.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Push Notifications"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificaciones Push"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificaciones Push"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications Push"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifiche Push"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificações Push"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificações Push"
+          }
+        }
+      }
+    },
+    "onboarding.settings.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set this up on Settings"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configúralo en Ajustes"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configúralo en Configuración"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configure-le dans Réglages"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuralo in Impostazioni"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configure nas Configurações"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configura nas Definições"
+          }
+        }
+      }
+    },
+    "onboarding.timer.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Just click on the Play button"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo pulsa el botón de reproducción"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo toca el botón de reproducción"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il suffit d'appuyer sur le bouton Lecture"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basta toccare il pulsante Play"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basta clicar no botão Play"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basta carregar no botão Play"
+          }
+        }
+      }
+    },
+    "onboarding.timer.subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the integrated timer to track the time for each brush"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa el temporizador integrado para controlar el tiempo de cada cepillado"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa el temporizador integrado para controlar el tiempo de cada cepillado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilise le minuteur intégré pour suivre la durée de chaque brossage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa il timer integrato per tenere traccia del tempo di ogni lavaggio"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use o temporizador integrado para acompanhar o tempo de cada escovação"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa o temporizador integrado para controlar o tempo de cada escovagem"
+          }
+        }
+      }
+    },
+    "onboarding.timer.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brush Timer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador de Cepillado"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador de Cepillado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minuteur de Brossage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer di Lavaggio"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador de Escovação"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporizador de Escovagem"
+          }
+        }
+      }
+    },
+    "Privacy Policy" : {
+
+    },
+    "Reset Options" : {
+
+    },
+    "Settings" : {
+
+    },
+    "Share" : {
+
+    },
+    "Statistics" : {
+
+    },
+    "Sync with Calendar" : {
+
+    },
+    "Sync with Reminders" : {
+
+    },
+    "The app is intended for individuals aged 4 and older. Due to the absence of data collection, children are not at risk of data sharing. Concerned parents or guardians can contact us for necessary actions or delete the app immediately." : {
+
+    },
+    "The app was developed with robust security measures to protect your Device’s Brushing Preferences for the correct functionality of the Cleeth App." : {
+
+    },
+    "The Developer 🧑‍💻" : {
+
+    },
+    "The idea of creating \"Cleeth\" came to me in February 2023 during a challenging personal moment. To give myself a sense of purpose, I set the goal of publishing my first iOS app during that month. However, during this time and until recently, I took a break from programming to focus on personal growth. Today, I am proud to say that not only do I feel much better about myself, but I have also successfully published my first iOS app on the App Store in November 2023, this one. This achievement reflects my improved well-being and confidence, serving as a reminder that we must prioritize our own well-being so we can excell in our work so we could support others achieve great things to.\n\nFirstly, I want to express my profound gratitude to my extensive family for their unwavering support, love, patience, and care. Their daily dedication and hard work have paved the way for me to achieve my dreams and encounter experiences beyond what I could have imagined. Whether celebrating my successes or guiding me through my mistakes, they have played a pivotal role in shaping the person I am today.\n\nTo my friends who have stood by me through thick and thin, I want to express my heartfelt gratitude. Thank you for patiently listening to all my crazy ideas and providing unwavering support. For encouring me to see life in different ways, but always happy ways. Thanks for all the laughs, smiles, trips, parties, and the deep late-night talks. You are more than friends; you are my second family. A special thanks to Martín, Isabela, Renato, María José, Felipe, José, Inês, Alisson, and Mateo for the impact you've had on me this past year, even if you weren't aware of it.\n\nTo my ex-girlfriend, though we are no longer together, I still cherish the love we shared. Thank you for accepting me for who I am, believing in me, and seeing potential in me that I couldn't see in myself.  I'm eternally grateful for the time we spent together, the cherished memories, the love, the heart-to-heart talks, the confidence, the trust, and the profound connection we shared. I feel fortunate for the wonderful relationship we had, both as friends and as a couple. I genuinely hope that everyone can experience the depth of connection we once had. You’re everything that is right in the world, and anyone who has had the privilege of meeting you is truly fortunate. I want to express my gratitude for your patience and empathy, especially over this past year. I wouldn't be in the place I am now if it weren't for you, nor this app. I love you and will always do.\n\nLast but not least, I want to thank me, for believing in me, for putting in all this hard work, for never taking a day off, for never quitting. I want to to thank me for always trying to do the right thing, even when it was the hard thing to do. Thank you for learning from your mistakes, embracing your achievements, accepting yourself, and taking pride in it.\nThank you Matias, for not give up on your dreams, but most importantly, not giving up on yourself during this past year." : {
+
+    },
+    "The user hereby indemnifies Cleeth App, its developer, and the author of the Privacy Policy, Matias Ortiz Luna, undertaking to keep them indemnified against any losses, damages, costs, liabilities, and expenses incurred or suffered by the user arising from the use of this app or any breach by the user of any provision of these terms of use. This indemnity also extends to cover any claims asserting that the user has breached any provision of these terms of use." : {
+
+    },
+    "This document outlines the policies on the collection, use, and disclosure of personal data when utilizing the Cleeth App and the choices available to users." : {
+
+    },
+    "This is the first page" : {
+
+    },
+    "Time" : {
+
+    },
+    "Time for Every Brush" : {
+
+    },
+    "Times Per Day" : {
+
+    },
+    "User Rights and Consent:" : {
+
+    },
+    "We're working on it. See u soon" : {
+
+    },
+    "Welcome" : {
+
+    },
+    "While Policy Changes are expected to be minor, the Cleeth App reserves the right to make modifications to its Privacy Policy at its sole discretion. Users' continued use of the app following any updates to the Privacy Policy implies their acceptance of such changes." : {
+
+    },
+    "Yes" : {
+
+    },
+    "Yes, Delete All" : {
+
+    },
+    "Yes, Sync Now" : {
+
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,63 @@
+# SwiftFormat config — mapped from company .swift-format (Apple's tool)
+
+--swiftversion 5.9
+
+# Indentation (tabs, width 4 — matches company config)
+--indent tab
+--tabwidth 4
+--smarttabs enabled
+
+# Line length (matches company lineLength: 160)
+--maxwidth 160
+
+# Blank lines (matches company maximumBlankLines: 1)
+--maxblanklines 1
+--emptylines preserve
+
+# Argument wrapping (matches lineBreakBeforeEachArgument: true)
+--wraparguments before-first
+--wrapcollections before-first
+--wrapparameters before-first
+--wrapreturntype preserve
+--closingparen balanced
+
+# Conditional compilation (matches indentConditionalCompilationBlocks: false)
+--ifdefindent no-indent
+
+# Import ordering (matches OrderedImports: true)
+--importgrouping testable-bottom
+
+# Trailing closures (matches NoEmptyTrailingClosureParentheses: true)
+--trailingclosures
+
+# Parens (matches NoParensAroundConditions: true)
+--redundantparens
+
+# Void (matches NoVoidReturnOnFunctionSignature: true)
+--voidparam void
+
+# Single-line getter (matches UseSingleLinePropertyGetter: true)
+--redundantget
+
+# Semicolons disabled
+--semicolons never
+
+# File header — strip Xcode's auto-generated "Created by..." comment
+--header strip
+
+# Explicit self — remove when Swift doesn't require it
+--self remove
+
+# Unused closure arguments — replace with _ when not referenced
+--stripunusedargs closure-only
+
+# Disable rules that conflict with company .swift-format disabled rules
+# extensionAccessControl disabled — leave access modifiers exactly as written
+--disable consecutiveSpaces
+--disable wrapMultilineStatementBraces
+--disable blankLinesAroundMark
+--disable extensionAccessControl
+--disable redundantFileprivate
+
+# Excluded paths
+--exclude .build,Pods,*.generated.swift
