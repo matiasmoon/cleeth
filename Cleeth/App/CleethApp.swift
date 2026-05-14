@@ -4,7 +4,6 @@ import SwiftUI
 struct CleethApp: App {
 	// Initiate State (Global) objects
 	@StateObject var brushTimeModel = BrushModel()
-	@StateObject var notificationViewModel = NotificationModel()
 
 	@Environment(\.scenePhase) private var scenePhase
 
@@ -41,10 +40,9 @@ struct CleethApp: App {
 			// Create main view, and include models as environment objects
 			ContentView()
 				.environmentObject(brushTimeModel)
-				.environmentObject(notificationViewModel)
 				.onAppear(perform: {
 					// When app's opened, always check if the app has Notification Permissions
-					Helper.requestNotificationsPermission()
+					//					Helper.requestNotificationsPermission()
 				})
 		}
 		.onChange(of: scenePhase) { phase in

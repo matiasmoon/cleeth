@@ -45,6 +45,5 @@ struct ClearStatisticsView_Previews: PreviewProvider {
 	static var previews: some View {
 		ClearStatisticsView()
 			.environmentObject(BrushModel())
-			.environmentObject(NotificationModel())
 	}
 }

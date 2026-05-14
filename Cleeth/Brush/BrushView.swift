@@ -74,5 +74,4 @@ struct BrushView: View {
 #Preview {
 	BrushView()
 		.environmentObject(BrushModel())
-		.environmentObject(NotificationModel())
 }

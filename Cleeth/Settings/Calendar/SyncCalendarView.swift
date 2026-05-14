@@ -50,7 +50,6 @@ struct SyncCalendarView_Previews: PreviewProvider {
 	static var previews: some View {
 		SyncCalendarView()
 			.environmentObject(BrushModel())
-			.environmentObject(NotificationModel())
 	}
 }
 // swiftlint:enable line_length

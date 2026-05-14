@@ -20,5 +20,4 @@ struct ClockLabel: View {
 #Preview {
 	ClockLabel()
 		.environmentObject(BrushModel())
-		.environmentObject(NotificationModel())
 }

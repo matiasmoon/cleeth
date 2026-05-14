@@ -122,5 +122,4 @@ extension Image {
 #Preview {
 	BackgroundView()
 		.environmentObject(BrushModel())
-		.environmentObject(NotificationModel())
 }

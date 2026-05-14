@@ -33,7 +33,7 @@ struct SettingsView: View {
 				)
 
 				Section(header: Text("Brush Options")) {
-					NavigationLink(destination: NotificationsView()) {
+                    NavigationLink(destination: NotificationsView(store: .init(initialState: .init(), reducer: { NotificationsReducer() }))) {
 						HStack {
 							Image(systemName: "bell.badge")
 								.foregroundStyle(Color(.cleethGreen))
@@ -146,6 +146,5 @@ struct SettingsView_Previews: PreviewProvider {
 	static var previews: some View {
 		SettingsView()
 			.environmentObject(BrushModel())
-			.environmentObject(NotificationModel())
 	}
 }

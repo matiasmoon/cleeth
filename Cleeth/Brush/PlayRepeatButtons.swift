@@ -62,5 +62,4 @@ struct PlayRepeatButtons: View {
 #Preview {
 	PlayRepeatButtons()
 		.environmentObject(BrushModel())
-		.environmentObject(NotificationModel())
 }

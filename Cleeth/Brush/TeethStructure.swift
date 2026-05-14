@@ -57,5 +57,4 @@ struct TeethStructure: View {
 #Preview {
 	TeethStructure()
 		.environmentObject(BrushModel())
-		.environmentObject(NotificationModel())
 }

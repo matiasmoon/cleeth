@@ -39,5 +39,4 @@ struct ClearEventsView: View {
 #Preview {
 	ClearEventsView()
 		.environmentObject(BrushModel())
-		.environmentObject(NotificationModel())
 }
