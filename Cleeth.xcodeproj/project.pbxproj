@@ -13,13 +13,10 @@
 		0F23B2B02AD2ED49007D2BC0 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F23B2AF2AD2ED49007D2BC0 /* BackgroundView.swift */; };
 		0F2E8F2129A036F400C68D69 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E8F2029A036F400C68D69 /* NotificationsView.swift */; };
 		0F46EED32B35F6230018F474 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F46EED22B35F6230018F474 /* OnboardingView.swift */; };
-		0F794D69299E6A4300B0FC0A /* BrushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F794D68299E6A4300B0FC0A /* BrushView.swift */; };
+		0F794D69299E6A4300B0FC0A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F794D68299E6A4300B0FC0A /* HomeView.swift */; };
 		0F794D6B299E6ABA00B0FC0A /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F794D6A299E6ABA00B0FC0A /* StatisticsView.swift */; };
 		0F794D6D299E6ACA00B0FC0A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F794D6C299E6ACA00B0FC0A /* SettingsView.swift */; };
-		0F8566C72B07B5F7006482C0 /* BrushModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8566C62B07B5F7006482C0 /* BrushModel.swift */; };
 		0FC6FE0C2AD6F80C002E5E9B /* TeethStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6FE0B2AD6F80C002E5E9B /* TeethStructure.swift */; };
-		0FC6FE0E2AD73A79002E5E9B /* PlayRepeatButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6FE0D2AD73A79002E5E9B /* PlayRepeatButtons.swift */; };
-		0FC6FE102AD73CE0002E5E9B /* ClockLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6FE0F2AD73CE0002E5E9B /* ClockLabel.swift */; };
 		0FD0AD6B2B0B81A100565501 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0AD6A2B0B81A100565501 /* AboutView.swift */; };
 		0FD1E5CD2B0BDC44007638AD /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD1E5CC2B0BDC44007638AD /* PrivacyPolicyView.swift */; };
 		603CEF812FB5319B0037FE2D /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603CEF802FB5319B0037FE2D /* OnboardingPage.swift */; };
@@ -44,6 +41,8 @@
 		60A265062FB585BB00BA9F1C /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A265042FB585BB00BA9F1C /* LanguageView.swift */; };
 		60A265092FB585C000BA9F1C /* TermsOfUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A265072FB585C000BA9F1C /* TermsOfUseView.swift */; };
 		60A2650C2FB585C600BA9F1C /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A2650A2FB585C600BA9F1C /* MusicView.swift */; };
+		AA000001AAAA00001234AA01 /* HomeReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002AAAA00001234AA01 /* HomeReducer.swift */; };
+		AA000003AAAA00001234AA01 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000004AAAA00001234AA01 /* AppReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,13 +54,10 @@
 		0F23B2B42AD2EDD2007D2BC0 /* Cleeth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cleeth.entitlements; sourceTree = "<group>"; };
 		0F2E8F2029A036F400C68D69 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		0F46EED22B35F6230018F474 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		0F794D68299E6A4300B0FC0A /* BrushView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrushView.swift; sourceTree = "<group>"; };
+		0F794D68299E6A4300B0FC0A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0F794D6A299E6ABA00B0FC0A /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		0F794D6C299E6ACA00B0FC0A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		0F8566C62B07B5F7006482C0 /* BrushModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrushModel.swift; sourceTree = "<group>"; };
 		0FC6FE0B2AD6F80C002E5E9B /* TeethStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeethStructure.swift; sourceTree = "<group>"; };
-		0FC6FE0D2AD73A79002E5E9B /* PlayRepeatButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRepeatButtons.swift; sourceTree = "<group>"; };
-		0FC6FE0F2AD73CE0002E5E9B /* ClockLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockLabel.swift; sourceTree = "<group>"; };
 		0FD0AD6A2B0B81A100565501 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		0FD1E5CC2B0BDC44007638AD /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		0FDE54442B0A2C0700FA4D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +82,8 @@
 		60A265042FB585BB00BA9F1C /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
 		60A265072FB585C000BA9F1C /* TermsOfUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseView.swift; sourceTree = "<group>"; };
 		60A2650A2FB585C600BA9F1C /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		AA000002AAAA00001234AA01 /* HomeReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReducer.swift; sourceTree = "<group>"; };
+		AA000004AAAA00001234AA01 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,10 +132,8 @@
 			children = (
 				0F23B2AF2AD2ED49007D2BC0 /* BackgroundView.swift */,
 				0FC6FE0B2AD6F80C002E5E9B /* TeethStructure.swift */,
-				0FC6FE0D2AD73A79002E5E9B /* PlayRepeatButtons.swift */,
-				0FC6FE0F2AD73CE0002E5E9B /* ClockLabel.swift */,
-				0F794D68299E6A4300B0FC0A /* BrushView.swift */,
-				0F8566C62B07B5F7006482C0 /* BrushModel.swift */,
+				0F794D68299E6A4300B0FC0A /* HomeView.swift */,
+				AA000002AAAA00001234AA01 /* HomeReducer.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -197,6 +193,7 @@
 				0F46EED42B35F62B0018F474 /* Onboarding */,
 				0F06EE6A2806366700770031 /* CleethApp.swift */,
 				0F06EE6C2806366700770031 /* RootView.swift */,
+				AA000004AAAA00001234AA01 /* AppReducer.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -432,9 +429,9 @@
 				0F794D6D299E6ACA00B0FC0A /* SettingsView.swift in Sources */,
 				60A265032FB585B300BA9F1C /* CloudView.swift in Sources */,
 				606237FB2FB41D4300B6B104 /* OnboardingReducer.swift in Sources */,
-				0F8566C72B07B5F7006482C0 /* BrushModel.swift in Sources */,
+				AA000001AAAA00001234AA01 /* HomeReducer.swift in Sources */,
+				AA000003AAAA00001234AA01 /* AppReducer.swift in Sources */,
 				0F06EE6D2806366700770031 /* RootView.swift in Sources */,
-				0FC6FE0E2AD73A79002E5E9B /* PlayRepeatButtons.swift in Sources */,
 				0FC6FE0C2AD6F80C002E5E9B /* TeethStructure.swift in Sources */,
 				0F794D6B299E6ABA00B0FC0A /* StatisticsView.swift in Sources */,
 				60A264F12FB57F6F00BA9F1C /* RemindersReducer.swift in Sources */,
@@ -452,11 +449,10 @@
 				0F06EE6B2806366700770031 /* CleethApp.swift in Sources */,
 				603CEF812FB5319B0037FE2D /* OnboardingPage.swift in Sources */,
 				60A264FD2FB585A400BA9F1C /* AccessibilityView.swift in Sources */,
-				0F794D69299E6A4300B0FC0A /* BrushView.swift in Sources */,
+				0F794D69299E6A4300B0FC0A /* HomeView.swift in Sources */,
 				0F2E8F2129A036F400C68D69 /* NotificationsView.swift in Sources */,
 				60A2650C2FB585C600BA9F1C /* MusicView.swift in Sources */,
 				606238062FB4202500B6B104 /* LayoutSpacing.swift in Sources */,
-				0FC6FE102AD73CE0002E5E9B /* ClockLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

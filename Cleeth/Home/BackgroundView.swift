@@ -1,125 +1,105 @@
 import SwiftUI
+import UIKit
 
 struct BackgroundView: View {
-	private struct Emoji: Decodable, Hashable, Identifiable {
-		var id: Int
-		var isSystemName: Bool
-		var imageName: String
-		var geometry_width: CGFloat = 0.0
-		var initial_position: CGFloat = 0.0
-	}
+    private struct EmojiConfig: Identifiable {
+        let id: Int
+        let isSystemName: Bool
+        let imageName: String
+        let xFraction: CGFloat
+        let initialYFraction: CGFloat
+        let phaseOffset: Double
+    }
 
-	private let emojis: [Emoji] = [
-		Emoji(id: 1, isSystemName: false, imageName: "tooth_1f9b7", geometry_width: 0.1, initial_position: 0.0),
-		Emoji(id: 2, isSystemName: true, imageName: "bubbles.and.sparkles", geometry_width: 0.1, initial_position: 0.2),
-		Emoji(id: 3, isSystemName: false, imageName: "tooth_1f9b7", geometry_width: 0.1, initial_position: 0.4),
-		Emoji(id: 4, isSystemName: true, imageName: "bubbles.and.sparkles", geometry_width: 0.1, initial_position: 0.6),
-		Emoji(id: 5, isSystemName: false, imageName: "tooth_1f9b7", geometry_width: 0.1, initial_position: 0.8),
+    private let configs: [EmojiConfig] = [
+        .init(id:  1, isSystemName: false, imageName: "tooth_1f9b7",          xFraction: 0.1, initialYFraction: 0.0, phaseOffset: 0.0),
+        .init(id:  2, isSystemName: true,  imageName: "bubbles.and.sparkles", xFraction: 0.1, initialYFraction: 0.2, phaseOffset: 0.7),
+        .init(id:  3, isSystemName: false, imageName: "tooth_1f9b7",          xFraction: 0.1, initialYFraction: 0.4, phaseOffset: 1.4),
+        .init(id:  4, isSystemName: true,  imageName: "bubbles.and.sparkles", xFraction: 0.1, initialYFraction: 0.6, phaseOffset: 2.1),
+        .init(id:  5, isSystemName: false, imageName: "tooth_1f9b7",          xFraction: 0.1, initialYFraction: 0.8, phaseOffset: 2.8),
+        .init(id:  6, isSystemName: false, imageName: "toothbrush_1faa5",     xFraction: 0.3, initialYFraction: 0.1, phaseOffset: 0.3),
+        .init(id:  7, isSystemName: false, imageName: "toothbrush_1faa5",     xFraction: 0.3, initialYFraction: 0.3, phaseOffset: 1.0),
+        .init(id:  8, isSystemName: false, imageName: "toothbrush_1faa5",     xFraction: 0.3, initialYFraction: 0.5, phaseOffset: 1.7),
+        .init(id:  9, isSystemName: false, imageName: "toothbrush_1faa5",     xFraction: 0.3, initialYFraction: 0.7, phaseOffset: 2.4),
+        .init(id: 10, isSystemName: false, imageName: "toothbrush_1faa5",     xFraction: 0.3, initialYFraction: 0.9, phaseOffset: 3.1),
+        .init(id: 11, isSystemName: true,  imageName: "bubbles.and.sparkles", xFraction: 0.5, initialYFraction: 0.0, phaseOffset: 0.5),
+        .init(id: 12, isSystemName: true,  imageName: "bubbles.and.sparkles", xFraction: 0.5, initialYFraction: 0.2, phaseOffset: 1.2),
+        .init(id: 13, isSystemName: true,  imageName: "bubbles.and.sparkles", xFraction: 0.5, initialYFraction: 0.4, phaseOffset: 1.9),
+        .init(id: 14, isSystemName: true,  imageName: "bubbles.and.sparkles", xFraction: 0.5, initialYFraction: 0.6, phaseOffset: 2.6),
+        .init(id: 15, isSystemName: true,  imageName: "bubbles.and.sparkles", xFraction: 0.5, initialYFraction: 0.8, phaseOffset: 3.3),
+        .init(id: 16, isSystemName: false, imageName: "toothbrush_1faa5",     xFraction: 0.7, initialYFraction: 0.1, phaseOffset: 0.1),
+        .init(id: 17, isSystemName: false, imageName: "toothbrush_1faa5",     xFraction: 0.7, initialYFraction: 0.3, phaseOffset: 0.8),
+        .init(id: 18, isSystemName: false, imageName: "toothbrush_1faa5",     xFraction: 0.7, initialYFraction: 0.5, phaseOffset: 1.5),
+        .init(id: 19, isSystemName: false, imageName: "toothbrush_1faa5",     xFraction: 0.7, initialYFraction: 0.7, phaseOffset: 2.2),
+        .init(id: 20, isSystemName: false, imageName: "toothbrush_1faa5",     xFraction: 0.7, initialYFraction: 0.9, phaseOffset: 2.9),
+        .init(id: 21, isSystemName: false, imageName: "tooth_1f9b7",          xFraction: 0.9, initialYFraction: 0.0, phaseOffset: 0.4),
+        .init(id: 22, isSystemName: true,  imageName: "bubbles.and.sparkles", xFraction: 0.9, initialYFraction: 0.2, phaseOffset: 1.1),
+        .init(id: 23, isSystemName: false, imageName: "tooth_1f9b7",          xFraction: 0.9, initialYFraction: 0.4, phaseOffset: 1.8),
+        .init(id: 24, isSystemName: true,  imageName: "bubbles.and.sparkles", xFraction: 0.9, initialYFraction: 0.6, phaseOffset: 2.5),
+        .init(id: 25, isSystemName: false, imageName: "tooth_1f9b7",          xFraction: 0.9, initialYFraction: 0.8, phaseOffset: 3.2),
+    ]
 
-		Emoji(id: 6, isSystemName: false, imageName: "toothbrush_1faa5", geometry_width: 0.3, initial_position: 0.1),
-		Emoji(id: 7, isSystemName: false, imageName: "toothbrush_1faa5", geometry_width: 0.3, initial_position: 0.3),
-		Emoji(id: 8, isSystemName: false, imageName: "toothbrush_1faa5", geometry_width: 0.3, initial_position: 0.5),
-		Emoji(id: 9, isSystemName: false, imageName: "toothbrush_1faa5", geometry_width: 0.3, initial_position: 0.7),
-		Emoji(id: 10, isSystemName: false, imageName: "toothbrush_1faa5", geometry_width: 0.3, initial_position: 0.9),
-
-		Emoji(id: 21, isSystemName: true, imageName: "bubbles.and.sparkles", geometry_width: 0.5, initial_position: 0.0),
-		Emoji(id: 22, isSystemName: true, imageName: "bubbles.and.sparkles", geometry_width: 0.5, initial_position: 0.2),
-		Emoji(id: 23, isSystemName: true, imageName: "bubbles.and.sparkles", geometry_width: 0.5, initial_position: 0.4),
-		Emoji(id: 24, isSystemName: true, imageName: "bubbles.and.sparkles", geometry_width: 0.5, initial_position: 0.6),
-		Emoji(id: 25, isSystemName: true, imageName: "bubbles.and.sparkles", geometry_width: 0.5, initial_position: 0.8),
-
-		Emoji(id: 36, isSystemName: false, imageName: "toothbrush_1faa5", geometry_width: 0.7, initial_position: 0.1),
-		Emoji(id: 37, isSystemName: false, imageName: "toothbrush_1faa5", geometry_width: 0.7, initial_position: 0.3),
-		Emoji(id: 38, isSystemName: false, imageName: "toothbrush_1faa5", geometry_width: 0.7, initial_position: 0.5),
-		Emoji(id: 39, isSystemName: false, imageName: "toothbrush_1faa5", geometry_width: 0.7, initial_position: 0.7),
-		Emoji(id: 40, isSystemName: false, imageName: "toothbrush_1faa5", geometry_width: 0.7, initial_position: 0.9),
-
-		Emoji(id: 41, isSystemName: false, imageName: "tooth_1f9b7", geometry_width: 0.9, initial_position: 0.0),
-		Emoji(id: 42, isSystemName: true, imageName: "bubbles.and.sparkles", geometry_width: 0.9, initial_position: 0.2),
-		Emoji(id: 43, isSystemName: false, imageName: "tooth_1f9b7", geometry_width: 0.9, initial_position: 0.4),
-		Emoji(id: 44, isSystemName: true, imageName: "bubbles.and.sparkles", geometry_width: 0.9, initial_position: 0.6),
-		Emoji(id: 45, isSystemName: false, imageName: "tooth_1f9b7", geometry_width: 0.9, initial_position: 0.8),
-	]
-
-	var body: some View {
-		GeometryReader { geometry in
-			ForEach(emojis) { emoji in
-				EmojiImage(
-					isSystemName: emoji.isSystemName,
-					imageName: emoji.imageName,
-					width: 30,
-					height: 30,
-					delay: 2.0,
-					geometry_width: geometry.size.width * emoji.geometry_width,
-					geometry_heigth: geometry.size.height,
-					emojiPosition: geometry.size.height * emoji.initial_position
-				).environmentObject(BackgroundViewAnimationModel())
-			}
-		}
-	}
+    var body: some View {
+        GeometryReader { geometry in
+            TimelineView(.animation(minimumInterval: .animationInterval)) { context in
+                let elapsed = context.date.timeIntervalSinceReferenceDate
+                ZStack {
+                    ForEach(configs) { config in
+                        emojiView(config, elapsed: elapsed, size: geometry.size)
+                    }
+                }
+            }
+        }
+    }
 }
 
-struct EmojiImage: View {
-	@EnvironmentObject var backgroundViewAnimationmodel: BackgroundViewAnimationModel
+// MARK: - Helpers
 
-	var isSystemName: Bool
+private extension BackgroundView {
+    private func emojiView(_ config: EmojiConfig, elapsed: Double, size: CGSize) -> some View {
+        let period = size.height > 0 ? Double(size.height) / Double(CGFloat.scrollSpeed) : 1.0
+        let phase = elapsed.truncatingRemainder(dividingBy: period)
+        let startY = size.height * config.initialYFraction
+        let rawY = startY - CGFloat(phase) * .scrollSpeed
+        let yValue = rawY < 0 ? rawY + size.height : rawY
+        let scale = 1.0 + .scaleAmplitude * CGFloat(sin(elapsed * Double(CGFloat.scaleFrequency) + config.phaseOffset))
 
-	var imageName: String
-	var width: CGFloat
-	var height: CGFloat
-
-	var delay: Float
-
-	var geometry_width: CGFloat
-	var geometry_heigth: CGFloat
-
-	@State var emojiPosition: CGFloat
-	@State var timer1: Timer?
-	@State var timer2: Timer?
-
-	var body: some View {
-		Image(isSystemName: isSystemName, imageName: imageName)
-			.resizable()
-			.frame(width: width, height: height)
-			.foregroundStyle(Color(.cleethGreen))
-			.symbolEffect(.bounce, options: .repeating, value: backgroundViewAnimationmodel.startAnimation)
-			.scaleEffect(backgroundViewAnimationmodel.startAnimation2 ? 1.0 : 1.5)
-			.animation(.default, value: backgroundViewAnimationmodel.startAnimation2)
-			.onAppear(perform: {
-				backgroundViewAnimationmodel.startAnimation2.toggle()
-				timer2 = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { _ in
-					backgroundViewAnimationmodel.startAnimation2.toggle()
-				}
-			})
-			.position(x: geometry_width, y: emojiPosition)
-			.onAppear {
-				timer1 = Timer.scheduledTimer(withTimeInterval: 0.07, repeats: true) { _ in
-					self.emojiPosition -= 1.0
-					backgroundViewAnimationmodel.startAnimation.toggle()
-					if self.emojiPosition < 0 {
-						self.emojiPosition = geometry_heigth
-					}
-				}
-			}
-	}
+        return Image(isSystemName: config.isSystemName, imageName: config.imageName)
+            .resizable()
+            .frame(width: .iconSize, height: .iconSize)
+            .foregroundStyle(Color(UIColor.cleethGreen))
+            .scaleEffect(scale)
+            .position(x: size.width * config.xFraction, y: yValue)
+    }
 }
 
-class BackgroundViewAnimationModel: ObservableObject {
-	@Published var startAnimation: Bool = false
-	@Published var startAnimation2: Bool = false
+// MARK: - Constants
+
+private extension CGFloat {
+    static let iconSize: CGFloat = 30
+    static let scrollSpeed: CGFloat = 15
+    static let scaleAmplitude: CGFloat = 0.15
+    static let scaleFrequency: CGFloat = 1.5
 }
+
+private extension TimeInterval {
+    static let animationInterval: TimeInterval = 1.0 / 30.0
+}
+
+// MARK: - Image Extension
 
 extension Image {
-	init(isSystemName: Bool, imageName: String) {
-		if isSystemName {
-			self = Image(systemName: imageName)
-		} else {
-			self = Image(imageName)
-		}
-	}
+    init(isSystemName: Bool, imageName: String) {
+        if isSystemName {
+            self = Image(systemName: imageName)
+        } else {
+            self = Image(imageName)
+        }
+    }
 }
 
+// MARK: - Previews
+
 #Preview {
-	BackgroundView()
-		.environmentObject(BrushModel())
+    BackgroundView()
 }

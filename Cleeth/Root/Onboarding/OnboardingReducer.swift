@@ -3,23 +3,27 @@ import ComposableArchitecture
 @Reducer
 struct OnboardingReducer {
     @ObservableState
-    struct State: Equatable {
-        var hasCompleted = false
-    }
+    struct State: Equatable {}
 
     enum Action: ViewAction, Equatable {
         enum ViewAction: Equatable {
             case onGetStartedTapped
         }
 
+        enum DelegateAction: Equatable {
+            case completed
+        }
+
         case view(ViewAction)
+        case delegate(DelegateAction)
     }
 
     var body: some ReducerOf<Self> {
-        Reduce { state, action in
+        Reduce { _, action in
             switch action {
             case .view(.onGetStartedTapped):
-                state.hasCompleted = true
+                return .send(.delegate(.completed))
+            case .delegate:
                 return .none
             }
         }

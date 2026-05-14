@@ -1,55 +1,48 @@
+import ComposableArchitecture
 import SwiftUI
+import UserNotifications
 
 @main
 struct CleethApp: App {
-	// Initiate State (Global) objects
-	@StateObject var brushTimeModel = BrushModel()
+    let store = Store(initialState: AppReducer.State()) { AppReducer() }
 
-	@Environment(\.scenePhase) private var scenePhase
+    @Environment(\.scenePhase) private var scenePhase
 
-	init() {
-		// Set default values for variables in case they have not been initiated before
-		UserDefaults.standard.register(
-			defaults: [
-				"clockDefaultValue": 180,
-				"clockCurrentValue": 180,
-				"timesPerDay": 2,
-				"date1": Calendar.current.date(
-					bySettingHour: 10,
-					minute: 0,
-					second: 0,
-					of: Date()
-				)!,
-				"date2": Calendar.current.date(
-					bySettingHour: 20,
-					minute: 0,
-					second: 0,
-					of: Date()
-				)!,
-				"date3": Date(),
-				"date4": Date(),
-				"date5": Date(),
-				"date6": Date(),
-				"notificationsProvided": false,
-			]
-		)
-	}
+    init() {
+        UserDefaults.standard.register(
+            defaults: [
+                "clockDefaultValue": 180,
+                "clockCurrentValue": 180,
+                "timesPerDay": 2,
+                "date1": Calendar.current.date(
+                    bySettingHour: 10,
+                    minute: 0,
+                    second: 0,
+                    of: Date()
+                )!,
+                "date2": Calendar.current.date(
+                    bySettingHour: 20,
+                    minute: 0,
+                    second: 0,
+                    of: Date()
+                )!,
+                "date3": Date(),
+                "date4": Date(),
+                "date5": Date(),
+                "date6": Date(),
+                "notificationsProvided": false,
+            ]
+        )
+    }
 
-	var body: some Scene {
-		WindowGroup {
-			// Create main view, and include models as environment objects
-            RootView()
-				.environmentObject(brushTimeModel)
-				.onAppear(perform: {
-					// When app's opened, always check if the app has Notification Permissions
-					//					Helper.requestNotificationsPermission()
-				})
-		}
-		.onChange(of: scenePhase) { _, phase in
-			// IDK what's this
-			if phase == .active {
-				UNUserNotificationCenter.current().setBadgeCount(0)
-			}
-		}
-	}
+    var body: some Scene {
+        WindowGroup {
+            RootView(store: store)
+        }
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active {
+                UNUserNotificationCenter.current().setBadgeCount(0)
+            }
+        }
+    }
 }
