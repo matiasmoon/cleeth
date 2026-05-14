@@ -67,7 +67,7 @@ struct BrushView: View {
 			.opacity(self.brushViewModel.animateFinish ? 0.98 : 0)
 		}
 		.ignoresSafeArea(.all)
-		.toolbar(self.brushViewModel.hideTabBar ? .hidden : .visible, for: .tabBar).animation(.linear(duration: 0.1))
+		.toolbar(self.brushViewModel.hideTabBar ? .hidden : .visible, for: .tabBar).animation(.linear(duration: 0.1), value: self.brushViewModel.hideTabBar)
 	}
 }
 

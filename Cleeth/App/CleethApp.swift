@@ -45,7 +45,7 @@ struct CleethApp: App {
 					//					Helper.requestNotificationsPermission()
 				})
 		}
-		.onChange(of: scenePhase) { phase in
+		.onChange(of: scenePhase) { _, phase in
 			// IDK what's this
 			if phase == .active {
 				UNUserNotificationCenter.current().setBadgeCount(0)

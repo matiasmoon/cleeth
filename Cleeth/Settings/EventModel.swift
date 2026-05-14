@@ -9,7 +9,7 @@ class EventModel {
 	///
 	func requestAccessForCalendar() {
 		let status = EKEventStore.authorizationStatus(for: .event)
-		if status == .authorized {
+		if status == .fullAccess {
 			print("EKEventStore access already granted.")
 		} else {
 			eventStore.requestFullAccessToEvents { success, error in
@@ -131,7 +131,7 @@ class EventModel {
 	///
 	func requestAccessForReminders() {
 		let status = EKEventStore.authorizationStatus(for: .reminder)
-		if status == .authorized {
+		if status == .fullAccess {
 			print("EKEventStore access for Reminders already granted.")
 		} else {
 			eventStore.requestFullAccessToReminders { success, error in
