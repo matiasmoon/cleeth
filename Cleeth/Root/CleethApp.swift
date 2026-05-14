@@ -38,7 +38,7 @@ struct CleethApp: App {
 	var body: some Scene {
 		WindowGroup {
 			// Create main view, and include models as environment objects
-			ContentView()
+            RootView()
 				.environmentObject(brushTimeModel)
 				.onAppear(perform: {
 					// When app's opened, always check if the app has Notification Permissions

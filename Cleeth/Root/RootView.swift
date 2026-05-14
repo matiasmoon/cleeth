@@ -1,15 +1,16 @@
 import ComposableArchitecture
 import SwiftUI
 
-struct ContentView: View {
+struct RootView: View {
 	@AppStorage("onboardingCompleted") private var onboardingCompleted = false
+	@State private var selectedTab = 2
 	@State private var onboardingStore = Store(
 		initialState: OnboardingReducer.State(),
 		reducer: { OnboardingReducer() }
 	)
 
 	var body: some View {
-		TabView(selection: .constant(2)) {
+		TabView(selection: $selectedTab) {
 			BrushView()
 				.tabItem { Label("Brush", systemImage: "face.smiling") }
 				.tag(2)
@@ -30,7 +31,7 @@ struct ContentView: View {
 
 // MARK: - Helpers
 
-private extension ContentView {
+private extension RootView {
 	var showOnboarding: Binding<Bool> {
 		Binding(get: { !onboardingCompleted }, set: { _ in })
 	}
@@ -39,6 +40,6 @@ private extension ContentView {
 // MARK: - Previews
 
 #Preview {
-	ContentView()
+	RootView()
 		.environmentObject(BrushModel())
 }

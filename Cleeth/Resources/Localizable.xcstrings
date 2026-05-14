@@ -16,28 +16,22 @@
     "🪥 Cleeth is an iOS application designed to help everyone (but specially children) in cultivating the habit of brushing their teeth. Cleeth ensures you don't forget to brush by sending notifications and integrating with the Calendar. This by also providing a simple interface and fun animations to accompany you in your journey." : {
 
     },
-    "1.2P" : {
-
-    },
     "About" : {
 
     },
     "Access Already Granted" : {
 
     },
+    "Accessibility" : {
+
+    },
     "Acknowledgements 🙏" : {
 
     },
-    "App Information" : {
+    "Are you sure you want to delete all Cleeth Events from your Calendar?" : {
 
     },
-    "App Version" : {
-
-    },
-    "Are you sure you want to add Events to Brush Your Teeth to your Calendar?" : {
-
-    },
-    "Are you sure you want to delete all Clear Cleeth Events to Brush Your Teeth from your Calendar & Reminders?" : {
+    "Are you sure you want to delete all Cleeth Reminders?" : {
 
     },
     "As a graduate with a Bachelor's degree in Computer Engineering and currently pursuing a Master's in Computer Science, I understand the importance and risks associated with data. The Cleeth app was designed to function without requiring any user information. No data is collected, connected, or shared with external entities. Information related to the app's proper functioning remains exclusively on your device. For inquiries, please contact me at matiasortizluna.contacto@gmail.com." : {
@@ -46,25 +40,22 @@
     "Brush" : {
 
     },
-    "Brush Options" : {
+    "Calendar" : {
 
     },
     "Cancel" : {
 
     },
-    "Clear Events from your Calendar & Reminders" : {
+    "Clear Calendar Events" : {
 
     },
-    "Clear Statistics" : {
+    "Clear Reminders" : {
 
     },
     "Cleeth" : {
 
     },
-    "Cleeth will create a Reminder for each time of the day you set to be reminded to Brush your Teeth on the Reminders App (1 month).\n\nNote: Previous Events set up by Cleeth will be Deleted and Replaced with the new configuration." : {
-
-    },
-    "Cleeth will create Events for each time of the day you set to be reminded to Brush your Teeth on your Calendar (1 month).\n\nNote: Previous Events set up by Cleeth will be Deleted and Replaced with the new configuration." : {
+    "Coming Soon" : {
 
     },
     "Congrats!" : {
@@ -82,6 +73,9 @@
     "Download Cleeth Now!" : {
 
     },
+    "Enable Access in Settings" : {
+
+    },
     "Enable Notifications in Settings" : {
 
     },
@@ -89,9 +83,6 @@
 
     },
     "Feedback & Support" : {
-
-    },
-    "Hello" : {
 
     },
     "Hey! Check out this app that helps you remember to brush your teeth!" : {
@@ -103,10 +94,22 @@
     "How are you?" : {
 
     },
+    "iCloud" : {
+
+    },
+    "Language" : {
+
+    },
     "Last updated: November 2023" : {
 
     },
+    "Legal" : {
+
+    },
     "Matias Ortiz Luna is the sole operator of the Cleeth iOS mobile application, available on the App Store." : {
+
+    },
+    "Music" : {
 
     },
     "Note from the Author and Developer:" : {
@@ -873,10 +876,22 @@
         }
       }
     },
+    "Options" : {
+
+    },
+    "Permissions" : {
+
+    },
+    "Preferences" : {
+
+    },
     "Privacy Policy" : {
 
     },
-    "Reset Options" : {
+    "Reminders" : {
+
+    },
+    "Reset" : {
 
     },
     "Settings" : {
@@ -888,10 +903,19 @@
     "Statistics" : {
 
     },
+    "Support" : {
+
+    },
+    "Sync" : {
+
+    },
     "Sync with Calendar" : {
 
     },
     "Sync with Reminders" : {
+
+    },
+    "Terms of Use" : {
 
     },
     "The Developer 🧑‍💻" : {
@@ -915,13 +939,13 @@
     "Times Per Day" : {
 
     },
+    "Version 1.2" : {
+
+    },
     "We're working on it. See u soon" : {
 
     },
     "Welcome" : {
-
-    },
-    "Yes" : {
 
     },
     "Yes, Delete All" : {

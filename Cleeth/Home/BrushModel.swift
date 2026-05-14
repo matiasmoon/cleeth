@@ -1,6 +1,6 @@
 import Foundation
 
-class BrushModel: ObservableObject {
+public class BrushModel: ObservableObject {
 	// Create timer for clock
 	@Published var timer = Timer()
 
